@@ -1,12 +1,18 @@
 
+body {
+    color: white;
+
+    background-image: url("/app/src/sea.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+
 #container {
     width: 80%;
     margin: auto;
     text-align: center;
-}
-
-body {
-    background-color: darkblue;
 }
 
 
