@@ -1,8 +1,12 @@
 
-body{
+#container {
     width: 80%;
     margin: auto;
+    text-align: center;
+}
 
+body {
+    background-color: darkblue;
 }
 
 
