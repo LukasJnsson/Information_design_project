@@ -1,13 +1,16 @@
+@import url('https://fonts.cdnfonts.com/css/garet');
+
 
 body {
     color: white;
-
+    font-family: 'Garet', sans-serif, 'Times New Roman', Times, serif;
     background-image: url("/app/src/sea.png");
     background-repeat: repeat;
     background-size: 100%;
     background-position: center;
     object-fit: cover;
     text-align: center;
+    min-height: 100vh;
 }
 
 
@@ -18,17 +21,14 @@ body {
 }
 
 
-footer {
-    text-align: center;
-}
-
 #gif {
     display: flex;
-    width: 50%;
+    width: 45%;
     margin: auto;
     object-fit: cover;
 
 }
+
 
 .tableauViz {
     display: flex;
@@ -36,4 +36,9 @@ footer {
     margin: auto;
     object-fit: cover;
 
+}
+
+
+footer {
+    text-align: center;
 }
