@@ -19,3 +19,10 @@ body {
 footer {
     text-align: center;
 }
+
+.tableauViz {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    margin: auto;
+}
