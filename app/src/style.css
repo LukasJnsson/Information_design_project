@@ -3,9 +3,11 @@ body {
     color: white;
 
     background-image: url("/app/src/sea.png");
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: 100%;
     background-position: center;
+    object-fit: cover;
+    text-align: center;
 }
 
 
@@ -24,12 +26,14 @@ footer {
     display: flex;
     width: 50%;
     margin: auto;
+    object-fit: cover;
 
 }
 
 .tableauViz {
     display: flex;
     flex-direction: column;
-    height: 400px;
     margin: auto;
+    object-fit: cover;
+
 }
