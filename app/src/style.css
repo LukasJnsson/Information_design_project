@@ -20,6 +20,13 @@ footer {
     text-align: center;
 }
 
+#gif {
+    display: flex;
+    width: 50%;
+    margin: auto;
+
+}
+
 .tableauViz {
     display: flex;
     flex-direction: column;
