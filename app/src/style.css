@@ -36,6 +36,7 @@ body {
 .diagram {
     height: 500px;
     margin-bottom: 8%;
+    padding: 30px;
 }
 
 .diagram h3 {
