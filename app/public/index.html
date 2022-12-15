@@ -12,6 +12,12 @@
         <!--Bootstrap-->
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
     </head>
 
     <div id="container" class="text-white" style="margin-top: 10px;"> 
@@ -19,7 +25,52 @@
                 <header>
                     <h1>Rising Water Levels</h1>
                         <!-- <img id="gif" src="/app/src/sealevel.gif" alt=""> -->
-                        
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                            <img class="d-block w-100" src="/app/src/1.png" alt="First slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>2022</h5>
+                                <p>Not that much water</p>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                            <img class="d-block w-100" src="/app/src/2.png" alt="Second slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>2042</h5>
+                                <p>More water</p>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                            <img class="d-block w-100" src="/app/src/3.png" alt="Third slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>2062</h5>
+                                <p>A lot of water</p>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                            <img class="d-block w-100" src="/app/src/4.png" alt="Fourth slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>2082</h5>
+                                <p>Only water</p>
+                              </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                        </div>
 
                 </header>
 
@@ -113,6 +164,15 @@
                 </main>
 
                 <footer>
+                    <p>If you wanna read more about the subject, look at some of these links;</p>
+                    <p>
+                        <a href="https://www.transportstyrelsen.se/sv/luftfart/Statistik/Flygplatsstatistik-/">Transportstyrelsen</a>
+                    </p>
+                    <p>
+                        <a href="https://www.naturvardsverket.se/data-och-statistik/klimat/vaxthusgaser-territoriella-utslapp-och-upptag/">Naturvårdsverket</a>                    </p>
+                    <p>
+                        <a href="https://www.smhi.se/klimat/klimatet-da-och-nu/klimatindikatorer/klimatindikator-havsvattenstand-1.2260">SMHI</a>                    </p>
+            
                     <p>Copyright Project Rising Water Levels ©</p>
                 </footer>
         </body> 

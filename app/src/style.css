@@ -94,3 +94,19 @@ footer {
     margin-bottom: 20%;
 }
 }
+
+@media only screen and (max-width: 700px){
+    .diagram {
+    margin-bottom: 60%;
+    }
+}
+
+.carousel-item {
+    margin-top: 10px;
+}
+
+.carousel-item img {
+    width: auto;
+    height: 400px;
+    object-fit: contain;
+}
