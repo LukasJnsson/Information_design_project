@@ -15,6 +15,10 @@ body {
 
 /* Display settings */
 #container {
+    opacity: 0.85;
+    padding: 20px;
+    background-color: #012972;
+    border-radius: 27px;
     color: white;
     font-family: 'Garet', sans-serif, 'Times New Roman', Times, serif;
     width: 80%;
@@ -36,7 +40,7 @@ body {
 .diagram {
     height: 500px;
     margin-bottom: 8%;
-    padding: 30px;
+    padding: 10px;
 }
 
 .diagram h3 {
