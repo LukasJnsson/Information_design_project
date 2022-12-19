@@ -111,3 +111,6 @@ footer {
     object-fit: contain;
 }
 
+.important {
+    text-decoration: underline;
+}
