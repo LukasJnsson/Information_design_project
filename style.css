@@ -3,7 +3,7 @@
 
 /* Background */
 body {
-    background-image: url("/app/src/sea.png");
+    background-image: url("sea.png");
     background-repeat: repeat;
     background-size: 100%;
     background-position: center;
