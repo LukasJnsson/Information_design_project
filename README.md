@@ -1,2 +1,4 @@
-# Information_design_project
+# Information Design Project
+
+# 1. open index.html
  
